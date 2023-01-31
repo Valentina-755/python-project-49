@@ -23,19 +23,16 @@ def even():
         user_answer = input('Your answer: ')
         if randome_number % 2 == 0:
             correct_answer = 'yes'
-            incorrect_answer = 'no'
         else:
             correct_answer = 'no'
-            incorrect_answer = 'yes'
         if user_answer == correct_answer:
             print('Correct!')
-            counter +=1
+            counter += 1
         else:
             print(f'''"{user_answer}" is wrong answer ;(. Correct answer was "{correct_answer}".
 Let's try again, {name}!''')
-            return 
+            return
     print('Congratulations, ' + name + '!')
-
 
 
 def main():
