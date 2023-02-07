@@ -7,15 +7,15 @@ def condition():
 
 
 def task():
-    task = randint(1, 100)
-    return task
-
-
-def correct_answer(t):
-    if t % 2 == 0:
-        correct_answer = 'yes'
-    else:
-        correct_answer = 'no'
-    return correct_answer
-
+    arguments = {}
+    counter = 0
+    while counter < 3:
+        task = randint(1, 100)
+        if task % 2 == 0:
+            correct_answer = 'yes'
+        else:
+            correct_answer = 'no'
+        arguments[task] = correct_answer
+        counter += 1
+    return arguments
 
