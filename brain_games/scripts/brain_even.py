@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 import sys
 import os
+sys.path.insert(0, os.path.join(os.getcwd(), '..'))
 import logic
 from games import even
-sys.path.insert(0, os.path.join(os.getcwd(), '..'))
+
 
 
 def main():
