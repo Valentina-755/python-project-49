@@ -18,4 +18,3 @@ def task():
         arguments[task] = correct_answer
         counter += 1
     return arguments
-

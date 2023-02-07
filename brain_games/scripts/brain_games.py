@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 import sys
 import os
-sys.path.insert(0, os.path.join(os.getcwd(),'..'))
-
 import cli
+sys.path.insert(0, os.path.join(os.getcwd(), '..'))
 
 
 def greet():
