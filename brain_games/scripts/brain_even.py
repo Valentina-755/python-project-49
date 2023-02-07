@@ -2,8 +2,8 @@
 import sys
 import os
 sys.path.insert(0, os.path.join(os.getcwd(), '..'))
-import logic
-from games import even
+import brain_games.logic
+from brain_games.games import even
 
 
 
