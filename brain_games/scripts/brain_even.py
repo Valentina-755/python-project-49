@@ -1,13 +1,17 @@
 #!/usr/bin/env python3
-
-from brain_games import logic 
-from brain_games.games.even import condition, correct_answer, task
-
+import sys
+import os
+sys.path.insert(0, os.path.join(os.getcwd(),'..'))
+import logic 
+from games import even
 
 
 
 def main():
-    logic()
+    name = logic.welcome()
+    even.condition()
+    logic.round(even.task(), name)
+
 
 
 if __name__ == '__main__':
