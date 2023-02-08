@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 import sys
 import os
-import cli
-sys.path.insert(0, os.path.join(os.getcwd(), '..'))
+sys.path.insert(0, os.path.join(os.getcwd(), '../..'))
+from brain_games import cli
+
 
 
 def greet():
