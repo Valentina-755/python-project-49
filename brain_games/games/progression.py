@@ -2,7 +2,7 @@ from random import randint
 
 
 def condition():
-    condition = 'Find the greatest common divisor of given numbers.'
+    condition = 'What number is missing in the progression?'
     print(condition)
 
 
