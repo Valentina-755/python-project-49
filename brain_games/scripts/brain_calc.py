@@ -2,8 +2,8 @@
 import sys
 import os
 sys.path.insert(0, os.path.join(os.getcwd(), '../..'))
-from brain_games import logic
-from brain_games.games import calc
+from brain_games import logic # NOQA
+from brain_games.games import calc # NOQA
 
 
 def main():

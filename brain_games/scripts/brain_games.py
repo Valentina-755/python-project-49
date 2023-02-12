@@ -2,7 +2,7 @@
 import sys
 import os
 sys.path.insert(0, os.path.join(os.getcwd(), '../..'))
-from brain_games import cli
+from brain_games import cli # NOQA
 
 
 def greet():
