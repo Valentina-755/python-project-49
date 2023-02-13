@@ -9,6 +9,7 @@ def condition():
 def task():
     arguments = {}
     counter = 0
+    correct_answer = ''
     while counter < 3:
         start = randint(1, 50)
         step = randint(1, 10)
